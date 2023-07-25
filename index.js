@@ -1,3 +1,8 @@
+document.addEventListener('dblclick', function(event) {
+  event.preventDefault();
+});
+
+
 for (var i=0 ; i<document.querySelectorAll(".drum").length ; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function(){
        
